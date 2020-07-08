@@ -1,17 +1,22 @@
 {
-   // Use IntelliSense to find out which attributes exist for C# debugging
-   // Use hover for the description of the existing attributes
-   // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
-   "version": "0.2.0",
-   "configurations": [
-       {
-           "type": "java",
-           "name": "Debug (Launch) - Current File",
-           "request": "launch",
-           "mainClass": "${file}"
-       },
-
-      
+    // Use IntelliSense to find out which attributes exist for C# debugging
+    // Use hover for the description of the existing attributes
+    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java: Current File",
+            "type": "java",
+            "request": "launch",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
