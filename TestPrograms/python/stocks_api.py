@@ -6,4 +6,4 @@ def stockprice(symbol):
 input = input("Type in the symbol of the stock price you want to know? ")
 input = input.upper()
 stockprice = stockprice(input)
-print('Closing Price of ' + input + ' is $' + str(stockprice['c']))
+print('The stock price is  ' + str(stockprice['c']))
