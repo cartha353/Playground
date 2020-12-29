@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "test.App",
+            "projectName": "Playground_39affb72"
+        },
+        {
             "name": "Java: Current File",
             "type": "java",
             "request": "launch",
