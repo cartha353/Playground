@@ -1,5 +1,4 @@
 import requests
-import json
 def stockprice(symbol):
     r = requests.get('https://finnhub.io/api/v1/quote?symbol=' + symbol + '&token=bqrl2qnrh5resd1bp5sg&')
     return r.json()
