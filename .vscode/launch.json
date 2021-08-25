@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch person",
+            "request": "launch",
+            "mainClass": "test.person",
+            "projectName": "Playground_39affb72"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sticks",
+            "request": "launch",
+            "mainClass": "test.Sticks",
+            "projectName": "Playground_39affb72"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "test.App",
